@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.10'?>
+<?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Sat Dec 26 12:47:10 2015</timestamp>
   <block>
@@ -10,7 +10,7 @@
     </param>
     <param>
       <key>window_size</key>
-      <value></value>
+      <value>1800,800</value>
     </param>
     <param>
       <key>category</key>
@@ -101,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(344, 24)</value>
+      <value>(368, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -109,7 +109,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>0,2,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -160,7 +160,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(624, 568)</value>
+      <value>(1256, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -168,7 +168,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>2,2,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -176,7 +176,7 @@
     </param>
     <param>
       <key>label</key>
-      <value></value>
+      <value>BB Gain</value>
     </param>
     <param>
       <key>max</key>
@@ -278,7 +278,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1024, 28)</value>
+      <value>(512, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -286,7 +286,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>1,1,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -337,7 +337,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(256, 516)</value>
+      <value>(1112, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -345,7 +345,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>2,1,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -396,7 +396,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(392, 376)</value>
+      <value>(968, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -404,7 +404,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>0,3,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -412,7 +412,7 @@
     </param>
     <param>
       <key>label</key>
-      <value></value>
+      <value>RF Gain</value>
     </param>
     <param>
       <key>max</key>
@@ -482,7 +482,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(248, 388)</value>
+      <value>(816, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -490,7 +490,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>1,3,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -498,7 +498,7 @@
     </param>
     <param>
       <key>label</key>
-      <value></value>
+      <value>TX Frequency</value>
     </param>
     <param>
       <key>max</key>
@@ -541,7 +541,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 516)</value>
+      <value>(656, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -549,7 +549,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>1,2,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -557,7 +557,7 @@
     </param>
     <param>
       <key>label</key>
-      <value></value>
+      <value>Audio Level</value>
     </param>
     <param>
       <key>max</key>
@@ -600,7 +600,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 16)</value>
+      <value>(208, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -608,7 +608,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value>0,1,1,1</value>
     </param>
     <param>
       <key>id</key>
@@ -667,7 +667,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(624, 80)</value>
+      <value>(680, 140)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -730,7 +730,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 256)</value>
+      <value>(72, 292)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -844,7 +844,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(248, 140)</value>
+      <value>(248, 164)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -895,7 +895,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1088, 388)</value>
+      <value>(904, 332)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -942,7 +942,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(776, 272)</value>
+      <value>(712, 304)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -974,6 +974,53 @@
     </param>
   </block>
   <block>
+    <key>blocks_null_sink</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>bus_conns</key>
+      <value>[[0,],]</value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1072, 336)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_null_sink_0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_throttle</key>
     <param>
       <key>alias</key>
@@ -993,7 +1040,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(264, 196)</value>
+      <value>(264, 236)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1048,7 +1095,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/pi/gnuradio-grc-examples/test_audio.wav</value>
+      <value>/home/anton/gnuradio-grc-examples/test_audio.wav</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1103,7 +1150,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(448, 140)</value>
+      <value>(448, 164)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1166,7 +1213,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(544, 232)</value>
+      <value>(512, 276)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2121,11 +2168,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1040, 496)</value>
+      <value>(920, 420)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2248,7 +2295,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(296, 272)</value>
+      <value>(296, 308)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2307,7 +2354,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(800, 360)</value>
+      <value>(688, 428)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2378,7 +2425,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1112, 180)</value>
+      <value>(872, 132)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2481,7 +2528,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(576, 372)</value>
+      <value>(288, 404)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2565,6 +2612,12 @@
   <connection>
     <source_block_id>blocks_multiply_const_vxx_0</source_block_id>
     <sink_block_id>blocks_throttle_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_vxx_0_0</source_block_id>
+    <sink_block_id>blocks_null_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
