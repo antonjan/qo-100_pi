@@ -1,6 +1,44 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:PI_Hat_TX_with_Adf4351_V1-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Raspberry_Pi_2m_TX_LPF_7Stage-cache
+LIBS:SBB2089Z _MINI_POWER_amp_20dbm
+LIBS:ADE-30
+LIBS:MABA-009180-500MHz_transformer
+LIBS:SXBP-150+
 LIBS:PI_Hat_TX_with_Adf4351_V1-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +53,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:RPi_GPIO J3
+L RPi_GPIO J3
 U 1 1 5873A850
 P 2700 3600
 F 0 "J3" H 3450 3850 60  0000 C CNN
@@ -26,7 +64,7 @@ F 3 "" H 2700 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C1
+L C_Small C1
 U 1 1 5873A98D
 P 5200 3950
 F 0 "C1" V 5000 3900 50  0000 L CNN
@@ -37,7 +75,7 @@ F 3 "" H 5200 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R3
+L R R3
 U 1 1 5873AF72
 P 5800 4150
 F 0 "R3" H 5900 4150 50  0000 C CNN
@@ -48,7 +86,7 @@ F 3 "" H 5800 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R2
+L R R2
 U 1 1 5873AFD2
 P 5500 3950
 F 0 "R2" V 5400 3950 50  0000 C CNN
@@ -59,7 +97,7 @@ F 3 "" H 5500 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R5
+L R R5
 U 1 1 5873B001
 P 6100 3950
 F 0 "R5" V 6000 3950 50  0000 C CNN
@@ -70,7 +108,7 @@ F 3 "" H 6100 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5873B8DE
 P 5800 4400
 F 0 "#PWR01" H 5800 4150 50  0001 C CNN
@@ -81,7 +119,7 @@ F 3 "" H 5800 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5873BE8E
 P 10100 4100
 F 0 "#PWR05" H 10100 3850 50  0001 C CNN
@@ -92,7 +130,7 @@ F 3 "" H 10100 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5873C19E
 P 2350 5500
 F 0 "#PWR06" H 2350 5250 50  0001 C CNN
@@ -103,7 +141,7 @@ F 3 "" H 2350 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5873C1D0
 P 2350 4800
 F 0 "#PWR07" H 2350 4550 50  0001 C CNN
@@ -114,7 +152,7 @@ F 3 "" H 2350 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L GND #PWR08
 U 1 1 5873C202
 P 2350 4000
 F 0 "#PWR08" H 2350 3750 50  0001 C CNN
@@ -125,7 +163,7 @@ F 3 "" H 2350 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5873C2AC
 P 4550 4500
 F 0 "#PWR09" H 4550 4250 50  0001 C CNN
@@ -136,7 +174,7 @@ F 3 "" H 4550 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 5873C2DE
 P 4950 5000
 F 0 "#PWR010" H 4950 4750 50  0001 C CNN
@@ -147,7 +185,7 @@ F 3 "" H 4950 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5873C37E
 P 4550 5200
 F 0 "#PWR011" H 4550 4950 50  0001 C CNN
@@ -158,7 +196,7 @@ F 3 "" H 4550 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L GND #PWR012
 U 1 1 5873C553
 P 5750 3650
 F 0 "#PWR012" H 5750 3400 50  0001 C CNN
@@ -169,7 +207,7 @@ F 3 "" H 5750 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R1
+L R R1
 U 1 1 5873C587
 P 5200 3350
 F 0 "R1" V 5280 3350 50  0000 C CNN
@@ -180,7 +218,7 @@ F 3 "" H 5200 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R4
+L R R4
 U 1 1 5873C605
 P 6000 3150
 F 0 "R4" V 6080 3150 50  0000 C CNN
@@ -191,7 +229,7 @@ F 3 "" H 6000 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR013
+L GND #PWR013
 U 1 1 5873CA9F
 P 6450 3350
 F 0 "#PWR013" H 6450 3100 50  0001 C CNN
@@ -202,7 +240,7 @@ F 3 "" H 6450 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x04 P2
+L Conn_01x04 P2
 U 1 1 5873CB85
 P 6700 3050
 F 0 "P2" H 6700 3300 50  0000 C CNN
@@ -213,7 +251,7 @@ F 3 "" H 6700 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR014
+L +3.3V #PWR014
 U 1 1 5873CD59
 P 2500 3400
 F 0 "#PWR014" H 2500 3250 50  0001 C CNN
@@ -224,7 +262,7 @@ F 3 "" H 2500 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR015
+L +3.3V #PWR015
 U 1 1 5873CF22
 P 2250 4400
 F 0 "#PWR015" H 2250 4250 50  0001 C CNN
@@ -235,7 +273,7 @@ F 3 "" H 2250 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR016
+L +3.3V #PWR016
 U 1 1 5873D065
 P 6300 2850
 F 0 "#PWR016" H 6300 2700 50  0001 C CNN
@@ -246,7 +284,7 @@ F 3 "" H 6300 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L GND #PWR018
 U 1 1 5873D5F7
 P 4550 4200
 F 0 "#PWR018" H 4550 3950 50  0001 C CNN
@@ -261,7 +299,7 @@ PTT
 Text Label 8750 4250 0    60   ~ 0
 2mTXtoAMP
 $Comp
-L power:GND #PWR019
+L GND #PWR019
 U 1 1 58747DF8
 P 4900 3800
 F 0 "#PWR019" H 4900 3550 50  0001 C CNN
@@ -272,7 +310,7 @@ F 3 "" H 4900 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR020
+L +5V #PWR020
 U 1 1 587480BB
 P 4550 3400
 F 0 "#PWR020" H 4550 3250 50  0001 C CNN
@@ -283,7 +321,7 @@ F 3 "" H 4550 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR021
+L +5V #PWR021
 U 1 1 587480F5
 P 4550 3700
 F 0 "#PWR021" H 4550 3550 50  0001 C CNN
@@ -294,7 +332,7 @@ F 3 "" H 4550 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x02 P3
+L Conn_01x02 P3
 U 1 1 58748276
 P 6750 4950
 F 0 "P3" H 6750 5100 50  0000 C CNN
@@ -305,7 +343,7 @@ F 3 "" H 6750 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 587482C1
 P 6400 5200
 F 0 "#PWR022" H 6400 4950 50  0001 C CNN
@@ -316,7 +354,7 @@ F 3 "" H 6400 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:CP1_Small C2
+L CP1_Small C2
 U 1 1 587483BD
 P 5250 5100
 F 0 "C2" H 5260 5170 50  0000 L CNN
@@ -327,7 +365,7 @@ F 3 "" H 5250 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:CP1_Small C3
+L CP1_Small C3
 U 1 1 5874843A
 P 6250 5100
 F 0 "C3" H 6260 5170 50  0000 L CNN
@@ -338,7 +376,7 @@ F 3 "" H 6250 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L GND #PWR023
 U 1 1 587486F2
 P 5750 5400
 F 0 "#PWR023" H 5750 5150 50  0001 C CNN
@@ -349,7 +387,7 @@ F 3 "" H 5750 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L GND #PWR024
 U 1 1 58748779
 P 5250 5400
 F 0 "#PWR024" H 5250 5150 50  0001 C CNN
@@ -360,7 +398,7 @@ F 3 "" H 5250 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L GND #PWR025
 U 1 1 5874912A
 P 6250 5450
 F 0 "#PWR025" H 6250 5200 50  0001 C CNN
@@ -371,7 +409,7 @@ F 3 "" H 6250 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR026
+L +5V #PWR026
 U 1 1 587491E1
 P 5250 4850
 F 0 "#PWR026" H 5250 4700 50  0001 C CNN
@@ -382,7 +420,7 @@ F 3 "" H 5250 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x02 P5
+L Conn_01x02 P5
 U 1 1 587C1A9B
 P 1850 3800
 F 0 "P5" H 1850 3950 50  0000 C CNN
@@ -393,7 +431,7 @@ F 3 "" H 1850 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R9
+L R R9
 U 1 1 587C1E09
 P 5400 2800
 F 0 "R9" V 5480 2800 50  0000 C CNN
@@ -404,7 +442,7 @@ F 3 "" H 5400 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR028
+L GND #PWR028
 U 1 1 587C1EE8
 P 5100 2800
 F 0 "#PWR028" H 5100 2550 50  0001 C CNN
@@ -433,7 +471,7 @@ NoConn ~ 4400 4400
 NoConn ~ 4400 4300
 NoConn ~ 4400 4000
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:LM7805-RESCUE-RPi_Hat U1
+L LM7805-RESCUE-RPi_Hat U1
 U 1 1 5874847B
 P 5750 5000
 F 0 "U1" H 5900 4804 50  0000 C CNN
@@ -444,7 +482,7 @@ F 3 "" H 5750 5000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P4
+L SMA P4
 U 1 1 587D7F9F
 P 10250 3950
 F 0 "P4" H 10330 3950 40  0000 L CNN
@@ -455,7 +493,7 @@ F 3 "" H 10250 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:BC817-40 Q1
+L BC817-40 Q1
 U 1 1 58890E81
 P 5650 3350
 F 0 "Q1" H 5850 3425 50  0000 L CNN
@@ -466,7 +504,7 @@ F 3 "" H 5650 3350 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:LED D?
+L LED D?
 U 1 1 5CB84E70
 P 5800 2800
 F 0 "D?" H 5800 2900 50  0000 C CNN
@@ -477,7 +515,7 @@ F 3 "" H 5800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_02x05_Odd_Even-RESCUE-PI_Hat_TX_with_Adf4351_V1 J?
+L Conn_02x05_Odd_Even-RESCUE-PI_Hat_TX_with_Adf4351_V1 J?
 U 1 1 5CB85271
 P 1400 5100
 F 0 "J?" H 1450 5400 50  0000 C CNN
@@ -488,7 +526,7 @@ F 3 "" H 1400 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CB8DAD3
 P 550 5200
 F 0 "#PWR?" H 550 4950 50  0001 C CNN
@@ -499,7 +537,7 @@ F 3 "" H 550 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CB8DB4A
 P 2000 5300
 F 0 "#PWR?" H 2000 5050 50  0001 C CNN
@@ -511,7 +549,7 @@ F 3 "" H 2000 5300 50  0000 C CNN
 $EndComp
 NoConn ~ 2500 4600
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5CB8F10E
 P 900 5600
 F 0 "#PWR?" H 900 5450 50  0001 C CNN
@@ -522,7 +560,7 @@ F 3 "" H 900 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF787B9
 P 950 4250
 F 0 "R?" V 1030 4250 50  0000 C CNN
@@ -533,7 +571,7 @@ F 3 "" H 950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF788DA
 P 1550 4250
 F 0 "R?" V 1630 4250 50  0000 C CNN
@@ -544,7 +582,7 @@ F 3 "" H 1550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5CF78ADD
 P 950 4050
 F 0 "#PWR?" H 950 3900 50  0001 C CNN
@@ -555,7 +593,7 @@ F 3 "" H 950 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5CF78B5A
 P 1550 4050
 F 0 "#PWR?" H 1550 3900 50  0001 C CNN
@@ -566,7 +604,7 @@ F 3 "" H 1550 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF78E14
 P 700 5350
 F 0 "C?" V 500 5300 50  0000 L CNN
@@ -577,7 +615,7 @@ F 3 "" H 700 5350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L SBB2089Z U?
 U 1 1 5CF79A0D
 P 8450 3950
 F 0 "U?" H 8450 3600 60  0000 C CNN
@@ -588,7 +626,7 @@ F 3 "" H 8450 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF79E60
 P 8650 4450
 F 0 "#PWR?" H 8650 4200 50  0001 C CNN
@@ -599,7 +637,7 @@ F 3 "" H 8650 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF7A211
 P 8650 3450
 F 0 "#PWR?" H 8650 3200 50  0001 C CNN
@@ -610,7 +648,7 @@ F 3 "" H 8650 3450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:ADE-30 U?
+L ADE-30 U?
 U 1 1 5CF799FB
 P 7350 1950
 F 0 "U?" H 7350 1600 60  0000 C CNN
@@ -621,7 +659,7 @@ F 3 "" H 7350 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P?
+L SMA P?
 U 1 1 5CF79B51
 P 10900 1800
 F 0 "P?" H 10980 1800 40  0000 L CNN
@@ -632,7 +670,7 @@ F 3 "" H 10900 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF79C1F
 P 8450 1800
 F 0 "R?" V 8350 1800 50  0000 C CNN
@@ -643,7 +681,7 @@ F 3 "" H 8450 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF79CE6
 P 8050 1800
 F 0 "R?" V 7950 1800 50  0000 C CNN
@@ -654,7 +692,7 @@ F 3 "" H 8050 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF79DB0
 P 8250 2050
 F 0 "R?" V 8150 2050 50  0000 C CNN
@@ -665,7 +703,7 @@ F 3 "" H 8250 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF79E6D
 P 6600 1600
 F 0 "#PWR?" H 6600 1350 50  0001 C CNN
@@ -676,7 +714,7 @@ F 3 "" H 6600 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF79EFF
 P 7850 2200
 F 0 "#PWR?" H 7850 1950 50  0001 C CNN
@@ -687,7 +725,7 @@ F 3 "" H 7850 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF79F91
 P 8250 2350
 F 0 "#PWR?" H 8250 2100 50  0001 C CNN
@@ -698,7 +736,7 @@ F 3 "" H 8250 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF7A023
 P 10750 1950
 F 0 "#PWR?" H 10750 1700 50  0001 C CNN
@@ -709,7 +747,7 @@ F 3 "" H 10750 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P?
+L SMA P?
 U 1 1 5CF7A0E2
 P 750 1950
 F 0 "P?" H 830 1950 40  0000 L CNN
@@ -720,7 +758,7 @@ F 3 "" H 750 1950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF7A4B6
 P 8400 2850
 F 0 "R?" V 8300 2850 50  0000 C CNN
@@ -731,7 +769,7 @@ F 3 "" H 8400 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF7A5A3
 P 7900 2850
 F 0 "R?" V 7800 2850 50  0000 C CNN
@@ -742,7 +780,7 @@ F 3 "" H 7900 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CF7AB72
 P 8150 3000
 F 0 "R?" V 8050 3000 50  0000 C CNN
@@ -753,7 +791,7 @@ F 3 "" H 8150 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF7AC4B
 P 8150 3200
 F 0 "#PWR?" H 8150 2950 50  0001 C CNN
@@ -766,7 +804,7 @@ $EndComp
 Text Notes 1050 4750 0    60   ~ 0
 ADF4351 Contole
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF7BEF5
 P 9850 3950
 F 0 "C?" V 9650 3900 50  0000 L CNN
@@ -777,7 +815,7 @@ F 3 "" H 9850 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L SBB2089Z U?
 U 1 1 5CF7CE8F
 P 10200 1800
 F 0 "U?" H 10200 1450 60  0000 C CNN
@@ -788,7 +826,7 @@ F 3 "" H 10200 1800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF80B3F
 P 10000 2250
 F 0 "#PWR?" H 10000 2000 50  0001 C CNN
@@ -799,7 +837,7 @@ F 3 "" H 10000 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF80BF8
 P 10000 1300
 F 0 "#PWR?" H 10000 1050 50  0001 C CNN
@@ -810,7 +848,7 @@ F 3 "" H 10000 1300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L SBB2089Z U?
 U 1 1 5CF81FEB
 P 3350 2500
 F 0 "U?" H 3350 2150 60  0000 C CNN
@@ -821,7 +859,7 @@ F 3 "" H 3350 2500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF82C5C
 P 2350 2500
 F 0 "L?" V 2400 2500 50  0000 L CNN
@@ -832,7 +870,7 @@ F 3 "" H 2350 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF82EB4
 P 2200 2700
 F 0 "L?" H 2250 2700 50  0000 L CNN
@@ -843,7 +881,7 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF834F2
 P 1950 2500
 F 0 "C?" V 2100 2450 50  0000 L CNN
@@ -854,7 +892,7 @@ F 3 "" H 1950 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF84828
 P 3150 2950
 F 0 "#PWR?" H 3150 2700 50  0001 C CNN
@@ -865,7 +903,7 @@ F 3 "" H 3150 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF848D8
 P 3150 2000
 F 0 "#PWR?" H 3150 1750 50  0001 C CNN
@@ -876,7 +914,7 @@ F 3 "" H 3150 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF853A6
 P 10600 1800
 F 0 "C?" V 10400 1750 50  0000 L CNN
@@ -887,7 +925,7 @@ F 3 "" H 10600 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF86240
 P 9200 1800
 F 0 "L?" V 9250 1800 50  0000 L CNN
@@ -898,7 +936,7 @@ F 3 "" H 9200 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF86F59
 P 9050 1600
 F 0 "L?" V 9100 1600 50  0000 L CNN
@@ -909,7 +947,7 @@ F 3 "" H 9050 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF888F0
 P 8800 1800
 F 0 "C?" V 8600 1750 50  0000 L CNN
@@ -920,7 +958,7 @@ F 3 "" H 8800 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:SF2124E U?
+L SF2124E U?
 U 1 1 5CF8ACE4
 P 5950 2100
 F 0 "U?" H 5950 1750 60  0000 C CNN
@@ -931,7 +969,7 @@ F 3 "" H 5950 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF8B47C
 P 6450 1750
 F 0 "#PWR?" H 6450 1500 50  0001 C CNN
@@ -942,7 +980,7 @@ F 3 "" H 6450 1750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF8B523
 P 5450 1750
 F 0 "#PWR?" H 5450 1500 50  0001 C CNN
@@ -953,7 +991,7 @@ F 3 "" H 5450 1750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF8B5CA
 P 5450 2450
 F 0 "#PWR?" H 5450 2200 50  0001 C CNN
@@ -964,7 +1002,7 @@ F 3 "" H 5450 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF8B73B
 P 6450 2450
 F 0 "#PWR?" H 6450 2200 50  0001 C CNN
@@ -975,7 +1013,7 @@ F 3 "" H 6450 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF8BBB9
 P 5200 2100
 F 0 "C?" V 5000 2050 50  0000 L CNN
@@ -986,7 +1024,7 @@ F 3 "" H 5200 2100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MABA-009180-500MHz_transformer:MABA-009180-500MHz_1P_1S T?
+L MABA-009180-500MHz_1P_1S T?
 U 1 1 5CF90489
 P 4550 2300
 F 0 "T?" H 4550 2550 50  0000 C CNN
@@ -997,7 +1035,7 @@ F 3 "" H 4550 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF91444
 P 4750 2750
 F 0 "#PWR?" H 4750 2500 50  0001 C CNN
@@ -1008,7 +1046,7 @@ F 3 "" H 4750 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF91976
 P 1150 1400
 F 0 "#PWR?" H 1150 1150 50  0001 C CNN
@@ -1019,7 +1057,7 @@ F 3 "" H 1150 1400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L SBB2089Z U?
 U 1 1 5CF9197C
 P 3350 1150
 F 0 "U?" H 3350 800 60  0000 C CNN
@@ -1030,7 +1068,7 @@ F 3 "" H 3350 1150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF91982
 P 2350 1150
 F 0 "L?" V 2400 1150 50  0000 L CNN
@@ -1041,7 +1079,7 @@ F 3 "" H 2350 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF91988
 P 2200 1000
 F 0 "L?" V 2250 1000 50  0000 L CNN
@@ -1052,7 +1090,7 @@ F 3 "" H 2200 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF9198E
 P 1950 1150
 F 0 "C?" V 1750 1100 50  0000 L CNN
@@ -1063,7 +1101,7 @@ F 3 "" H 1950 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF91994
 P 3150 1600
 F 0 "#PWR?" H 3150 1350 50  0001 C CNN
@@ -1074,7 +1112,7 @@ F 3 "" H 3150 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF9199A
 P 3150 650
 F 0 "#PWR?" H 3150 400 50  0001 C CNN
@@ -1085,7 +1123,7 @@ F 3 "" H 3150 650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF91A1F
 P 3850 1150
 F 0 "C?" V 3650 1100 50  0000 L CNN
@@ -1096,7 +1134,7 @@ F 3 "" H 3850 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF91B3D
 P 3850 2500
 F 0 "C?" V 3650 2450 50  0000 L CNN
@@ -1111,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3900 2500 3900
 Wire Wire Line
-	5650 3950 5800 3950
+	5650 3950 5950 3950
 Wire Wire Line
 	5800 4000 5800 3950
 Connection ~ 5800 3950
@@ -1152,7 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3050 6500 3050
 Wire Wire Line
-	6050 2750 6050 2800
+	6050 2750 6050 3050
 Wire Wire Line
 	5300 3950 5350 3950
 Wire Wire Line
@@ -1186,14 +1224,14 @@ Wire Wire Line
 Wire Wire Line
 	6400 5050 6400 5200
 Wire Wire Line
-	6150 4950 6250 4950
+	6150 4950 6550 4950
 Wire Wire Line
 	6250 5000 6250 4950
 Connection ~ 6250 4950
 Wire Wire Line
 	5350 4950 5250 4950
 Wire Wire Line
-	5250 4850 5250 4950
+	5250 4850 5250 5000
 Wire Wire Line
 	5750 5250 5750 5400
 Wire Wire Line
@@ -1219,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 4700 2500 4700
 Wire Wire Line
-	550  5200 700  5200
+	550  5200 1050 5200
 Wire Wire Line
 	1850 5300 2000 5300
 Wire Wire Line
@@ -1227,7 +1265,7 @@ Wire Wire Line
 Wire Wire Line
 	700  5100 700  4500
 Wire Wire Line
-	700  4500 950  4500
+	700  4500 2500 4500
 Wire Wire Line
 	1850 5100 2300 5100
 Wire Wire Line
@@ -1237,11 +1275,11 @@ Wire Wire Line
 Wire Wire Line
 	1050 5300 900  5300
 Wire Wire Line
-	900  5300 900  5500
+	900  5300 900  5600
 Wire Wire Line
 	2500 4200 1850 4200
 Wire Wire Line
-	1850 4200 1850 4400
+	1850 4200 1850 4900
 Wire Wire Line
 	1550 4400 1850 4400
 Connection ~ 1850 4400
@@ -1271,7 +1309,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1800 7900 1800
 Wire Wire Line
-	8200 1800 8250 1800
+	8200 1800 8300 1800
 Wire Wire Line
 	8250 2200 8250 2350
 Wire Wire Line
@@ -1280,7 +1318,7 @@ Connection ~ 8250 1800
 Wire Wire Line
 	6600 1600 6850 1600
 Wire Wire Line
-	7850 1950 7850 2100
+	7850 1950 7850 2200
 Wire Wire Line
 	8650 3450 8650 3550
 Connection ~ 7850 2100
@@ -1289,7 +1327,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 3950 5100 3950
 Wire Wire Line
-	2050 2500 2200 2500
+	2050 2500 2250 2500
 Connection ~ 2200 2500
 Wire Wire Line
 	2450 2500 2500 2500
@@ -1310,7 +1348,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 1800 9300 1800
 Wire Wire Line
-	8900 1800 9050 1800
+	8900 1800 9100 1800
 Wire Wire Line
 	9050 1700 9050 1800
 Connection ~ 9050 1800
@@ -1337,7 +1375,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2100 5450 2100
 Wire Wire Line
-	2050 1150 2200 1150
+	2050 1150 2250 1150
 Wire Wire Line
 	2200 1100 2200 1150
 Connection ~ 2200 1150
@@ -1364,11 +1402,13 @@ Wire Wire Line
 Wire Wire Line
 	4750 2700 4750 2750
 Wire Wire Line
+	3950 2500 3950 2500
+Wire Wire Line
 	3950 2500 3950 2700
 Wire Wire Line
 	3950 2700 4350 2700
 $Comp
-L MABA-009180-500MHz_transformer:MABA-009180-500MHz_1P_1S T?
+L MABA-009180-500MHz_1P_1S T?
 U 1 1 5CF93425
 P 1350 1900
 F 0 "T?" H 1350 2150 50  0000 C CNN
@@ -1393,7 +1433,7 @@ Wire Wire Line
 Wire Wire Line
 	900  2300 900  1950
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF9404B
 P 900 1800
 F 0 "#PWR?" H 900 1550 50  0001 C CNN
@@ -1406,7 +1446,7 @@ $EndComp
 Wire Wire Line
 	900  1800 900  1900
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5CF942B8
 P 1700 650
 F 0 "#PWR?" H 1700 500 50  0001 C CNN
@@ -1417,7 +1457,7 @@ F 3 "" H 1700 650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF94560
 P 1800 750
 F 0 "C?" V 1600 700 50  0000 L CNN
@@ -1432,7 +1472,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 650  2200 900 
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF94B37
 P 1800 900
 F 0 "#PWR?" H 1800 650 50  0001 C CNN
@@ -1443,7 +1483,7 @@ F 3 "" H 1800 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF94BFF
 P 2000 750
 F 0 "C?" V 2150 700 50  0000 L CNN
@@ -1456,7 +1496,7 @@ $EndComp
 Wire Wire Line
 	1800 850  1800 900 
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF952BE
 P 2000 900
 F 0 "#PWR?" H 2000 650 50  0001 C CNN
@@ -1469,7 +1509,7 @@ $EndComp
 Wire Wire Line
 	2000 850  2000 900 
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5CF95E5A
 P 1650 2850
 F 0 "#PWR?" H 1650 2700 50  0001 C CNN
@@ -1480,7 +1520,7 @@ F 3 "" H 1650 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF95E60
 P 1750 2950
 F 0 "C?" H 1600 2950 50  0000 L CNN
@@ -1493,7 +1533,7 @@ $EndComp
 Wire Wire Line
 	1650 2850 2200 2850
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF95E67
 P 1750 3100
 F 0 "#PWR?" H 1750 2850 50  0001 C CNN
@@ -1504,7 +1544,7 @@ F 3 "" H 1750 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF95E6D
 P 1950 2950
 F 0 "C?" H 2100 2950 50  0000 L CNN
@@ -1517,7 +1557,7 @@ $EndComp
 Wire Wire Line
 	1750 3050 1750 3100
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CF95E74
 P 1950 3100
 F 0 "#PWR?" H 1950 2850 50  0001 C CNN
@@ -1540,14 +1580,14 @@ Mixer
 Text Notes 3700 1850 0    60   ~ 0
 PA
 Wire Wire Line
-	9950 3950 10050 3950
+	9950 3950 10100 3950
 Wire Wire Line
 	8550 2850 10050 2850
 Wire Wire Line
 	10050 2850 10050 3950
 Connection ~ 10050 3950
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF9BD8E
 P 9450 3950
 F 0 "L?" V 9500 3950 50  0000 L CNN
@@ -1558,7 +1598,7 @@ F 3 "" H 9450 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L L_Small L?
 U 1 1 5CF9BEC4
 P 9600 3800
 F 0 "L?" V 9650 3800 50  0000 L CNN
@@ -1569,11 +1609,11 @@ F 3 "" H 9600 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3950 9600 3950
+	9750 3950 9550 3950
 Wire Wire Line
 	9350 3950 9300 3950
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CF9C69F
 P 8050 3950
 F 0 "C?" V 7850 3900 50  0000 L CNN
@@ -1589,7 +1629,7 @@ Wire Wire Line
 	9600 3900 9600 3950
 Connection ~ 9600 3950
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5CFA02BB
 P 9050 3250
 F 0 "#PWR?" H 9050 3100 50  0001 C CNN
@@ -1600,7 +1640,7 @@ F 3 "" H 9050 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CFA02C1
 P 9150 3350
 F 0 "C?" H 8950 3350 50  0000 L CNN
@@ -1613,7 +1653,7 @@ $EndComp
 Wire Wire Line
 	9050 3250 9600 3250
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA02C8
 P 9150 3500
 F 0 "#PWR?" H 9150 3250 50  0001 C CNN
@@ -1624,7 +1664,7 @@ F 3 "" H 9150 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CFA02CE
 P 9350 3350
 F 0 "C?" H 9450 3350 50  0000 L CNN
@@ -1637,7 +1677,7 @@ $EndComp
 Wire Wire Line
 	9150 3450 9150 3500
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA02D5
 P 9350 3500
 F 0 "#PWR?" H 9350 3250 50  0001 C CNN
@@ -1650,7 +1690,7 @@ $EndComp
 Wire Wire Line
 	9350 3450 9350 3500
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5CFA1020
 P 8500 1200
 F 0 "#PWR?" H 8500 1050 50  0001 C CNN
@@ -1661,7 +1701,7 @@ F 3 "" H 8500 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CFA1026
 P 8600 1300
 F 0 "C?" H 8400 1300 50  0000 L CNN
@@ -1674,7 +1714,7 @@ $EndComp
 Wire Wire Line
 	8500 1200 9050 1200
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L C_Small C?
 U 1 1 5CFA102D
 P 8800 1300
 F 0 "C?" H 8950 1250 50  0000 L CNN
@@ -1685,7 +1725,7 @@ F 3 "" H 8800 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA10C1
 P 8800 1450
 F 0 "#PWR?" H 8800 1200 50  0001 C CNN
@@ -1696,7 +1736,7 @@ F 3 "" H 8800 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA119B
 P 8600 1450
 F 0 "#PWR?" H 8600 1200 50  0001 C CNN
@@ -1713,7 +1753,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1200 9050 1500
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L R R?
 U 1 1 5CFA1B5D
 P 9600 3400
 F 0 "R?" H 9500 3300 50  0000 C CNN
@@ -1726,7 +1766,7 @@ $EndComp
 Wire Wire Line
 	9600 3550 9600 3700
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5CFA244A
 P 6050 2750
 F 0 "#PWR?" H 6050 2600 50  0001 C CNN
@@ -1738,7 +1778,7 @@ F 3 "" H 6050 2750 50  0000 C CNN
 $EndComp
 NoConn ~ 4400 3900
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:SXBP-150+ U?
+L SXBP-150+ U?
 U 1 1 5CFA3BA2
 P 7050 3950
 F 0 "U?" H 7050 3700 60  0000 C CNN
@@ -1757,7 +1797,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4100 7950 3950
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA3F65
 P 7700 3700
 F 0 "#PWR?" H 7700 3450 50  0001 C CNN
@@ -1768,7 +1808,7 @@ F 3 "" H 7700 3700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5CFA4030
 P 6400 4200
 F 0 "#PWR?" H 6400 3950 50  0001 C CNN
@@ -1781,7 +1821,7 @@ $EndComp
 Wire Wire Line
 	6500 3900 6400 3900
 Wire Wire Line
-	6400 3900 6400 4000
+	6400 3900 6400 4200
 Wire Wire Line
 	6500 4000 6400 4000
 Connection ~ 6400 4000
@@ -1789,7 +1829,7 @@ Wire Wire Line
 	6500 4100 6400 4100
 Connection ~ 6400 4100
 Wire Wire Line
-	7700 3700 7700 3800
+	7700 3700 7700 4000
 Wire Wire Line
 	7700 4000 7550 4000
 Wire Wire Line
@@ -1798,42 +1838,4 @@ Connection ~ 7700 3900
 Wire Wire Line
 	7550 3800 7700 3800
 Connection ~ 7700 3800
-Wire Wire Line
-	5800 3950 5950 3950
-Wire Wire Line
-	6250 4950 6550 4950
-Wire Wire Line
-	5250 4950 5250 5000
-Wire Wire Line
-	6050 2800 6050 3050
-Wire Wire Line
-	1850 4400 1850 4900
-Wire Wire Line
-	950  4500 2500 4500
-Wire Wire Line
-	900  5500 900  5600
-Wire Wire Line
-	700  5200 1050 5200
-Wire Wire Line
-	8250 1800 8300 1800
-Wire Wire Line
-	7850 2100 7850 2200
-Wire Wire Line
-	2200 2500 2250 2500
-Wire Wire Line
-	9050 1800 9100 1800
-Wire Wire Line
-	2200 1150 2250 1150
-Wire Wire Line
-	10050 3950 10100 3950
-Wire Wire Line
-	9600 3950 9550 3950
-Wire Wire Line
-	6400 4000 6400 4100
-Wire Wire Line
-	6400 4100 6400 4200
-Wire Wire Line
-	7700 3900 7700 4000
-Wire Wire Line
-	7700 3800 7700 3900
 $EndSCHEMATC

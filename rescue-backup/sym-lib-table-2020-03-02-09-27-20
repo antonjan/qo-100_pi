@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name PI_Hat_TX_with_Adf4351_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/PI_Hat_TX_with_Adf4351_V1-rescue.lib)(options "")(descr ""))
+  (lib (name Raspberry_Pi_2m_TX_LPF_7Stage-cache)(type Legacy)(uri ${KIPRJMOD}/Raspberry_Pi_2m_TX_LPF_7Stage-cache.lib)(options "")(descr ""))
+  (lib (name SBB2089Z-_MINI_POWER_amp_20dbm)(type Legacy)(uri "${KIPRJMOD}/SBB2089Z _MINI_POWER_amp_20dbm.lib")(options "")(descr ""))
+  (lib (name ADE-30)(type Legacy)(uri ${KIPRJMOD}/ADE-30.lib)(options "")(descr ""))
+  (lib (name MABA-009180-500MHz_transformer)(type Legacy)(uri ${KIPRJMOD}/MABA-009180-500MHz_transformer.lib)(options "")(descr ""))
+  (lib (name SXBP-150+)(type Legacy)(uri ${KIPRJMOD}/SXBP-150+.lib)(options "")(descr ""))
+)

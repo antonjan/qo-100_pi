@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Raspberry_Pi_2m_TX_LPF_7Stage-rescue)(type Legacy)(uri ${KIPRJMOD}/Raspberry_Pi_2m_TX_LPF_7Stage-rescue.lib)(options "")(descr ""))
+  (lib (name PI_Hat_TX_with_Adf4351_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/PI_Hat_TX_with_Adf4351_V1-rescue.lib)(options "")(descr ""))
+)

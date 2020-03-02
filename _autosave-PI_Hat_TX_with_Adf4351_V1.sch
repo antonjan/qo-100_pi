@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:RPi_GPIO J3
+L PI_Hat_TX_with_Adf4351_V1-rescue:RPi_GPIO-PI_Hat_TX_with_Adf4351_V1-rescue J3
 U 1 1 5873A850
 P 2700 3600
 F 0 "J3" H 3450 3850 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 2700 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C1
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C1
 U 1 1 5873A98D
 P 5200 3950
 F 0 "C1" V 5000 3900 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 5200 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R3
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R3
 U 1 1 5873AF72
 P 5800 4150
 F 0 "R3" H 5900 4150 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 5800 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R2
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R2
 U 1 1 5873AFD2
 P 5500 3950
 F 0 "R2" V 5400 3950 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 5500 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R5
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R5
 U 1 1 5873B001
 P 6100 3950
 F 0 "R5" V 6000 3950 50  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 5750 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R1
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R1
 U 1 1 5873C587
 P 5200 3350
 F 0 "R1" V 5280 3350 50  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 5200 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R4
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R4
 U 1 1 5873C605
 P 6000 3150
 F 0 "R4" V 6080 3150 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 6450 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x04 P2
+L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_01x04-Raspberry_Pi_2m_TX_LPF_7Stage-cache P2
 U 1 1 5873CB85
 P 6700 3050
 F 0 "P2" H 6700 3300 50  0000 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 4550 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x02 P3
+L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_01x02-Raspberry_Pi_2m_TX_LPF_7Stage-cache P3
 U 1 1 58748276
 P 6750 4950
 F 0 "P3" H 6750 5100 50  0000 C CNN
@@ -316,7 +316,7 @@ F 3 "" H 6400 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:CP1_Small C2
+L PI_Hat_TX_with_Adf4351_V1-rescue:CP1_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C2
 U 1 1 587483BD
 P 5250 5100
 F 0 "C2" H 5260 5170 50  0000 L CNN
@@ -327,7 +327,7 @@ F 3 "" H 5250 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:CP1_Small C3
+L PI_Hat_TX_with_Adf4351_V1-rescue:CP1_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C3
 U 1 1 5874843A
 P 6250 5100
 F 0 "C3" H 6260 5170 50  0000 L CNN
@@ -382,7 +382,7 @@ F 3 "" H 5250 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:Conn_01x02 P5
+L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_01x02-Raspberry_Pi_2m_TX_LPF_7Stage-cache P5
 U 1 1 587C1A9B
 P 1850 3800
 F 0 "P5" H 1850 3950 50  0000 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 1850 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R9
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R9
 U 1 1 587C1E09
 P 5400 2800
 F 0 "R9" V 5480 2800 50  0000 C CNN
@@ -433,7 +433,7 @@ NoConn ~ 4400 4400
 NoConn ~ 4400 4300
 NoConn ~ 4400 4000
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:LM7805-RESCUE-RPi_Hat U1
+L PI_Hat_TX_with_Adf4351_V1-rescue:LM7805-RESCUE-RPi_Hat-Raspberry_Pi_2m_TX_LPF_7Stage-cache U1
 U 1 1 5874847B
 P 5750 5000
 F 0 "U1" H 5900 4804 50  0000 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 5750 5000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P4
+L PI_Hat_TX_with_Adf4351_V1-rescue:SMA-Raspberry_Pi_2m_TX_LPF_7Stage-cache P4
 U 1 1 587D7F9F
 P 10250 3950
 F 0 "P4" H 10330 3950 40  0000 L CNN
@@ -455,7 +455,7 @@ F 3 "" H 10250 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:BC817-40 Q1
+L PI_Hat_TX_with_Adf4351_V1-rescue:BC817-40-Raspberry_Pi_2m_TX_LPF_7Stage-cache Q1
 U 1 1 58890E81
 P 5650 3350
 F 0 "Q1" H 5850 3425 50  0000 L CNN
@@ -466,7 +466,7 @@ F 3 "" H 5650 3350 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:LED D?
+L PI_Hat_TX_with_Adf4351_V1-rescue:LED-Raspberry_Pi_2m_TX_LPF_7Stage-cache D?
 U 1 1 5CB84E70
 P 5800 2800
 F 0 "D?" H 5800 2900 50  0000 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 5800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_02x05_Odd_Even-RESCUE-PI_Hat_TX_with_Adf4351_V1 J?
+L PI_Hat_TX_with_Adf4351_V1-rescue:Conn_02x05_Odd_Even-RESCUE-PI_Hat_TX_with_Adf4351_V1-PI_Hat_TX_with_Adf4351_V1-rescue J?
 U 1 1 5CB85271
 P 1400 5100
 F 0 "J?" H 1450 5400 50  0000 C CNN
@@ -522,7 +522,7 @@ F 3 "" H 900 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF787B9
 P 950 4250
 F 0 "R?" V 1030 4250 50  0000 C CNN
@@ -533,7 +533,7 @@ F 3 "" H 950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF788DA
 P 1550 4250
 F 0 "R?" V 1630 4250 50  0000 C CNN
@@ -566,7 +566,7 @@ F 3 "" H 1550 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF78E14
 P 700 5350
 F 0 "C?" V 500 5300 50  0000 L CNN
@@ -577,7 +577,7 @@ F 3 "" H 700 5350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SBB2089Z-SBB2089Z-_MINI_POWER_amp_20dbm U?
 U 1 1 5CF79A0D
 P 8450 3950
 F 0 "U?" H 8450 3600 60  0000 C CNN
@@ -610,7 +610,7 @@ F 3 "" H 8650 3450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:ADE-30 U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:ADE-30-PI_Hat_TX_with_Adf4351_V1-rescue U?
 U 1 1 5CF799FB
 P 7350 1950
 F 0 "U?" H 7350 1600 60  0000 C CNN
@@ -621,7 +621,7 @@ F 3 "" H 7350 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SMA-Raspberry_Pi_2m_TX_LPF_7Stage-cache P?
 U 1 1 5CF79B51
 P 10900 1800
 F 0 "P?" H 10980 1800 40  0000 L CNN
@@ -632,7 +632,7 @@ F 3 "" H 10900 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF79C1F
 P 8450 1800
 F 0 "R?" V 8350 1800 50  0000 C CNN
@@ -643,7 +643,7 @@ F 3 "" H 8450 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF79CE6
 P 8050 1800
 F 0 "R?" V 7950 1800 50  0000 C CNN
@@ -654,7 +654,7 @@ F 3 "" H 8050 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF79DB0
 P 8250 2050
 F 0 "R?" V 8150 2050 50  0000 C CNN
@@ -709,7 +709,7 @@ F 3 "" H 10750 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:SMA P?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SMA-Raspberry_Pi_2m_TX_LPF_7Stage-cache P?
 U 1 1 5CF7A0E2
 P 750 1950
 F 0 "P?" H 830 1950 40  0000 L CNN
@@ -720,7 +720,7 @@ F 3 "" H 750 1950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF7A4B6
 P 8400 2850
 F 0 "R?" V 8300 2850 50  0000 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 8400 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF7A5A3
 P 7900 2850
 F 0 "R?" V 7800 2850 50  0000 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 7900 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CF7AB72
 P 8150 3000
 F 0 "R?" V 8050 3000 50  0000 C CNN
@@ -766,7 +766,7 @@ $EndComp
 Text Notes 1050 4750 0    60   ~ 0
 ADF4351 Contole
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF7BEF5
 P 9850 3950
 F 0 "C?" V 9650 3900 50  0000 L CNN
@@ -777,7 +777,7 @@ F 3 "" H 9850 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SBB2089Z-SBB2089Z-_MINI_POWER_amp_20dbm U?
 U 1 1 5CF7CE8F
 P 10200 1800
 F 0 "U?" H 10200 1450 60  0000 C CNN
@@ -810,7 +810,7 @@ F 3 "" H 10000 1300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SBB2089Z-SBB2089Z-_MINI_POWER_amp_20dbm U?
 U 1 1 5CF81FEB
 P 3350 2500
 F 0 "U?" H 3350 2150 60  0000 C CNN
@@ -821,7 +821,7 @@ F 3 "" H 3350 2500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF82C5C
 P 2350 2500
 F 0 "L?" V 2400 2500 50  0000 L CNN
@@ -832,7 +832,7 @@ F 3 "" H 2350 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF82EB4
 P 2200 2700
 F 0 "L?" H 2250 2700 50  0000 L CNN
@@ -843,7 +843,7 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF834F2
 P 1950 2500
 F 0 "C?" V 2100 2450 50  0000 L CNN
@@ -876,7 +876,7 @@ F 3 "" H 3150 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF853A6
 P 10600 1800
 F 0 "C?" V 10400 1750 50  0000 L CNN
@@ -887,7 +887,7 @@ F 3 "" H 10600 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF86240
 P 9200 1800
 F 0 "L?" V 9250 1800 50  0000 L CNN
@@ -898,7 +898,7 @@ F 3 "" H 9200 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF86F59
 P 9050 1600
 F 0 "L?" V 9100 1600 50  0000 L CNN
@@ -909,7 +909,7 @@ F 3 "" H 9050 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF888F0
 P 8800 1800
 F 0 "C?" V 8600 1750 50  0000 L CNN
@@ -920,7 +920,7 @@ F 3 "" H 8800 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:SF2124E U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SF2124E-PI_Hat_TX_with_Adf4351_V1-rescue U?
 U 1 1 5CF8ACE4
 P 5950 2100
 F 0 "U?" H 5950 1750 60  0000 C CNN
@@ -975,7 +975,7 @@ F 3 "" H 6450 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF8BBB9
 P 5200 2100
 F 0 "C?" V 5000 2050 50  0000 L CNN
@@ -986,7 +986,7 @@ F 3 "" H 5200 2100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MABA-009180-500MHz_transformer:MABA-009180-500MHz_1P_1S T?
+L PI_Hat_TX_with_Adf4351_V1-rescue:MABA-009180-500MHz_1P_1S-MABA-009180-500MHz_transformer T?
 U 1 1 5CF90489
 P 4550 2300
 F 0 "T?" H 4550 2550 50  0000 C CNN
@@ -1019,7 +1019,7 @@ F 3 "" H 1150 1400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SBB2089Z-_MINI_POWER_amp_20dbm:SBB2089Z U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SBB2089Z-SBB2089Z-_MINI_POWER_amp_20dbm U?
 U 1 1 5CF9197C
 P 3350 1150
 F 0 "U?" H 3350 800 60  0000 C CNN
@@ -1030,7 +1030,7 @@ F 3 "" H 3350 1150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF91982
 P 2350 1150
 F 0 "L?" V 2400 1150 50  0000 L CNN
@@ -1041,7 +1041,7 @@ F 3 "" H 2350 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF91988
 P 2200 1000
 F 0 "L?" V 2250 1000 50  0000 L CNN
@@ -1052,7 +1052,7 @@ F 3 "" H 2200 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF9198E
 P 1950 1150
 F 0 "C?" V 1750 1100 50  0000 L CNN
@@ -1085,7 +1085,7 @@ F 3 "" H 3150 650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF91A1F
 P 3850 1150
 F 0 "C?" V 3650 1100 50  0000 L CNN
@@ -1096,7 +1096,7 @@ F 3 "" H 3850 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF91B3D
 P 3850 2500
 F 0 "C?" V 3650 2450 50  0000 L CNN
@@ -1368,7 +1368,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2700 4350 2700
 $Comp
-L MABA-009180-500MHz_transformer:MABA-009180-500MHz_1P_1S T?
+L PI_Hat_TX_with_Adf4351_V1-rescue:MABA-009180-500MHz_1P_1S-MABA-009180-500MHz_transformer T?
 U 1 1 5CF93425
 P 1350 1900
 F 0 "T?" H 1350 2150 50  0000 C CNN
@@ -1417,7 +1417,7 @@ F 3 "" H 1700 650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF94560
 P 1800 750
 F 0 "C?" V 1600 700 50  0000 L CNN
@@ -1443,7 +1443,7 @@ F 3 "" H 1800 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF94BFF
 P 2000 750
 F 0 "C?" V 2150 700 50  0000 L CNN
@@ -1480,7 +1480,7 @@ F 3 "" H 1650 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF95E60
 P 1750 2950
 F 0 "C?" H 1600 2950 50  0000 L CNN
@@ -1504,7 +1504,7 @@ F 3 "" H 1750 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF95E6D
 P 1950 2950
 F 0 "C?" H 2100 2950 50  0000 L CNN
@@ -1547,7 +1547,7 @@ Wire Wire Line
 	10050 2850 10050 3950
 Connection ~ 10050 3950
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF9BD8E
 P 9450 3950
 F 0 "L?" V 9500 3950 50  0000 L CNN
@@ -1558,7 +1558,7 @@ F 3 "" H 9450 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:L_Small L?
+L PI_Hat_TX_with_Adf4351_V1-rescue:L_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache L?
 U 1 1 5CF9BEC4
 P 9600 3800
 F 0 "L?" V 9650 3800 50  0000 L CNN
@@ -1573,7 +1573,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 3950 9300 3950
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CF9C69F
 P 8050 3950
 F 0 "C?" V 7850 3900 50  0000 L CNN
@@ -1600,7 +1600,7 @@ F 3 "" H 9050 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CFA02C1
 P 9150 3350
 F 0 "C?" H 8950 3350 50  0000 L CNN
@@ -1624,7 +1624,7 @@ F 3 "" H 9150 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CFA02CE
 P 9350 3350
 F 0 "C?" H 9450 3350 50  0000 L CNN
@@ -1661,7 +1661,7 @@ F 3 "" H 8500 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CFA1026
 P 8600 1300
 F 0 "C?" H 8400 1300 50  0000 L CNN
@@ -1674,7 +1674,7 @@ $EndComp
 Wire Wire Line
 	8500 1200 9050 1200
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:C_Small C?
+L PI_Hat_TX_with_Adf4351_V1-rescue:C_Small-Raspberry_Pi_2m_TX_LPF_7Stage-cache C?
 U 1 1 5CFA102D
 P 8800 1300
 F 0 "C?" H 8950 1250 50  0000 L CNN
@@ -1713,7 +1713,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1200 9050 1500
 $Comp
-L Raspberry_Pi_2m_TX_LPF_7Stage-cache:R R?
+L PI_Hat_TX_with_Adf4351_V1-rescue:R-Raspberry_Pi_2m_TX_LPF_7Stage-cache R?
 U 1 1 5CFA1B5D
 P 9600 3400
 F 0 "R?" H 9500 3300 50  0000 C CNN
@@ -1738,7 +1738,7 @@ F 3 "" H 6050 2750 50  0000 C CNN
 $EndComp
 NoConn ~ 4400 3900
 $Comp
-L PI_Hat_TX_with_Adf4351_V1-rescue:SXBP-150+ U?
+L PI_Hat_TX_with_Adf4351_V1-rescue:SXBP-150+-PI_Hat_TX_with_Adf4351_V1-rescue U?
 U 1 1 5CFA3BA2
 P 7050 3950
 F 0 "U?" H 7050 3700 60  0000 C CNN

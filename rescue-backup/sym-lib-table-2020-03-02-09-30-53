@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Adf4351_pi_hat-rescue)(type Legacy)(uri ${PI_QO_100}/Adf4351_pi_hat-rescue.lib)(options "")(descr ""))
+  (lib (name analog_devices)(type Legacy)(uri ${PI_QO_100}/analog_devices.lib)(options "")(descr ""))
+  (lib (name Raspberry_Pi_2m_TX_LPF_7Stage-cache)(type Legacy)(uri ${PI_QO_100}/Raspberry_Pi_2m_TX_LPF_7Stage-cache.lib)(options "")(descr ""))
+)
